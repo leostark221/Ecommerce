@@ -4,6 +4,7 @@ import viteLogo from "/vite.svg";
 import "./App.css";
 import Home from "./screens/Home";
 import Header from "./components/Header";
+import "@fortawesome/fontawesome-free/css/all.css";
 
 function App() {
   return (
