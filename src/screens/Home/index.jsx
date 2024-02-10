@@ -3,9 +3,40 @@ import images from "../../services/images";
 import Productlist from "../../components/Productlist";
 
 export default function Home() {
-
-  
-
+  const Howmepagedata = [
+    {
+      product: images.controller,
+      name: "HAVIT HV-G92 Gamepad",
+      price: "$120",
+      discount: "160",
+      initialrating: 4,
+      reviews: "(88)",
+    },
+    {
+      product: images.keyboard,
+      name: "AK-900 Wired Keyboard",
+      price: "$960",
+      discount: "$1160",
+      initialrating: 4,
+      reviews: "(75)",
+    },
+    {
+      product: images.Monitor,
+      name: "IPS LCD Gaming Monitor",
+      price: "$370",
+      discount: "$400",
+      initialrating: 4,
+      reviews: "(99)",
+    },
+    {
+      product: images.Chair,
+      name: "S-Series Comfort Chair",
+      price: "$375",
+      discount: "$400",
+      initialrating: 4,
+      reviews: "(99)",
+    },
+  ];
 
   return (
     <div className=" w-full  ml-32 ">
@@ -84,7 +115,7 @@ export default function Home() {
           <div>Timer</div>
         </div>
         <div>
-          <Productlist />
+          <Productlist Howmepagedata={Howmepagedata}/>
         </div>
       </div>
     </div>

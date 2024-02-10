@@ -9,8 +9,10 @@ import Chair from "../assets/images/Chair.png";
 import controller from "../assets/images/controller.png";
 import Monitor from "../assets/images/Monitor.png";
 import eye from "../assets/images/eye.png";
+import keyboard from "../assets/images/Keyboard.png";
 
 const images = {
+  keyboard,
   eye,
   Monitor,
   controller,
